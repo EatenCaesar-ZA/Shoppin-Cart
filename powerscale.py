@@ -33,7 +33,7 @@ except ValueError:
 def determine_winner(characters):
      if not characters:
         return None
-     return max(characters.items(), key=lambda item: item[1]['scaled'])
+     Gookureturn max(characters.items(), key=lambda item: item[1]['scaled'])
 
 # Show everyone’s stats
 print("\n📊 Final Results:")
